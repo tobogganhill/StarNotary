@@ -8,6 +8,7 @@ openzeppelin-solidity: ^4.0.0
 
 ## DEPLOY
 Webpack mode set to development, to deploy contract run:
+
 truffle(develop)> migrate --reset --network development
 
 ## ERC-721 Token Name
