@@ -6,8 +6,7 @@
 
 ## DEPLOY
 Webpack mode set to development, to deploy contract run:
-
-```truffle(develop)> migrate --reset --network development
+truffle(develop)> migrate --reset --network development
 
 ## ERC-721 Token Name
 Star Token
