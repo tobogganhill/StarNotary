@@ -1,8 +1,10 @@
 # Star Notary Token Dapp
 
-## Truffle version v5.1.62
+## Truffle 
+v5.1.62
 
-## OpenZeppelin version openzeppelin-solidity: ^4.0.0
+## OpenZeppelin version
+openzeppelin-solidity: ^4.0.0
 
 ## DEPLOY
 Webpack mode set to development, to deploy contract run:
