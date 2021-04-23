@@ -4,7 +4,8 @@
 
 ## OpenZeppelin version openzeppelin-solidity: ^4.0.0
 
-## DEPLOY Webpack mode set to development, to deploy contract run:
+## DEPLOY
+Webpack mode set to development, to deploy contract run:
 
 ```truffle(develop)> migrate --reset --network development
 
@@ -16,4 +17,4 @@ STC
 
 ## Contract Address on the Rinkeby Network
 https://rinkeby.etherscan.io/address/0x72f19ee1978acda6b0c9444028fcf0c1c04b6263
-```
+
