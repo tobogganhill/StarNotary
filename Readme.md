@@ -3,7 +3,7 @@
 ## Truffle 
 v5.1.62
 
-## OpenZeppelin version
+## OpenZeppelin
 openzeppelin-solidity: ^4.0.0
 
 ## DEPLOY
