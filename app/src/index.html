@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Star Notary DAPP</title>
+   
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+    </style>
+  <style>
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      background-color: DodgerBlue;
+     
+    }
+    
+    .flex-container > div {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f1f1f1;
+      border: solid;
+      border-width: 2px;
+      border-radius: 10px;
+      border-color: darkblue;
+      width: 500px;
+      margin: 5px;
+      padding: 5px;
+      text-align: start;
+      line-height: 26px;
+      font-size: 18px;
+    }
+    .different {
+      background-color: palegoldenrod;
+    }
+    .button {
+      background-color: cornflowerblue;
+      margin: 5px;
+      color: white;
+      padding: 10px 10px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    h2, h3{
+      text-align: center;
+    }
+    </style>
+  <body>
+    <div class="flex-container">
+      <div>
+        <h2>Star Notary Token Dapp</h2>
+      </div>      
+      <div>
+        <h3>Status</h3>
+        <span class="different" id="status"></span>
+      </div>
+   
+      <div>
+        <h3>Create Star</h3>
+        <label for="starName">Star Name </label><input type="text" id="starName"></input>
+        <br><label for="starId">Star ID&nbsp;&nbsp; </label><input type="text" id="starId"></input>
+        <br><button class="button" id="createStar" onclick="App.createStar()">Create</button>
+      </div>
+      <div>
+        <h3>Query Star Name</h3>
+        <label for="lookId">Star ID&nbsp;&nbsp; </label><input type="text" id="lookId"></input>
+        <br><button class="button" onclick="App.lookUp()">Query</button>
+      </div>
+      <div>
+        <h3>Query Star Ownership</h3>
+        <label for="ownerStarId">Star ID&nbsp;&nbsp; </label><input type="text" id="ownerStarId"></input>
+        <br><button class="button" onclick="App.getOwner()">Query</button>
+      </div>
+      <div> 
+        <h3>Transfer Star Ownership</h3>
+        <br><label for="addressTo">Receiving Address</label><input type="text" id="addressTo"></input>
+        <br><label for="transferId">Star ID&nbsp;&nbsp; </label><input type="text" id="transferId"></input>
+        <br><button class="button" onclick="App.transferStar()">Transfer</button>
+      </div> 
+      <div>
+        <h3>Exchange Star Ownership</h3>
+        <br><label for="token1">Star 1 ID&nbsp;&nbsp; </label><input type="text" id="token1"></input>
+        <br><label for="token2">Star 2 ID&nbsp;&nbsp; </label><input type="text" id="token2"></input>
+        <br><button class="button" onclick="App.exchangeStars()">Exchange</button>
+      </div> 
+     
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>
